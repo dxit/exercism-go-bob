@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// Hey should have a comment documenting it.
+// Hey is the main function returning the senteces.
 func Hey(remark string) string {
 	remark = strings.TrimSpace(remark)
 
